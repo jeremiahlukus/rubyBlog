@@ -11,7 +11,7 @@
   <body>
 
     <header id="main_navigation" class="clearfix">
-      <a href="#" class="name">Jeremiah Parrack</a>
+      <%= link_to "Jeremiah Parrack", root_path, class: "name" %>
       <nav>
 
         <%= link_to "Articles", posts_path %>
@@ -20,7 +20,14 @@
       </nav>
     </header>
 
-
     <%= yield %>
+        <footer id="main_footer">
+            <p class="copyright">&copy;2017 Jeremiah Parrack</p>
+            <nav>
+            <a href="https://twitter.com/jeremiahparrack" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/jeremiahlukus/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/jeremiahlukus" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </nav>
+        </footer> 
   </body>
 </html>

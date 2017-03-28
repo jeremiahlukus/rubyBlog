@@ -1,0 +1,29 @@
+<div class="wrapper wrapper_padding clearfix">
+  <div class="col-1 about homepage_content">
+    <h2>About</h2>
+    <hr>
+    <p>I am a college student, living in Atlanta Georgia.</p>
+    <p>Recently started to enter into the field of web development. I stared off learning Java, then started playing around with python. In the fall of 2016 someone told me about Rails, my life has not been the same since.</p>
+    <p>You can follow my coding adventures on <a href="#">Github</a>  </p>
+
+  </div>
+  <div class="col-2 homepage_content">
+    <h2>Stuff I Have Written</h2>
+    <hr>
+    <% @posts.each do |post| %>
+      <h3><a href="#"><%= link_to post.title, post %></a></h3>
+      <p class="date"><%= post.created_at.strftime("%A, %b, %d") %></p>
+  <% end %>
+
+  </div>
+  <div class="col-3 homepage_content">
+    <h2>Stuff I Have Built</h2>
+    <hr>
+    <h3> <a href="#">Yelp</a></h3>
+    <p class="date">Monday March 27th</p> 
+    <h3> <a href="#">Javascript color game</a></h3>
+    <p class="date">Monday March 27th</p> 
+    <h3> <a href="#">Implementing Dijstra's Algorithm</a></h3>
+    <p class="date">Monday March 27th</p> 
+  </div>
+</div>
