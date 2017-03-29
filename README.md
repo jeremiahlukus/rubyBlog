@@ -1,3 +1,6 @@
+Chaeck it out here : https://jeremiahparrack.herokuapp.com/
+
+
 A)
  1) what are I building? - personal site a place to blog, share my work and have people contact me
 	2) Who am I  building it for?  I am  building it for myself but also for the community as a whole. Sharing what I am learning by blogging.
