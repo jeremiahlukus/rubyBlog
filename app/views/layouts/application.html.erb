@@ -20,14 +20,19 @@
       </nav>
     </header>
 
+    <% if notice %>
+      <p class="notice"><%= notice %></p>
+    <% elsif alert %>
+      <p class="alert"><%= alert %></p>
+    <% end %>
     <%= yield %>
-        <footer id="main_footer">
-            <p class="copyright">&copy;2017 Jeremiah Parrack</p>
-            <nav>
-            <a href="https://twitter.com/jeremiahparrack" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://github.com/jeremiahlukus/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/jeremiahlukus" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </nav>
-        </footer> 
+    <footer id="main_footer">
+      <p class="copyright">&copy;2017 Jeremiah Parrack</p>
+      <nav>
+        <a href="https://twitter.com/jeremiahparrack" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://github.com/jeremiahlukus/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/jeremiahlukus" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </nav>
+    </footer> 
   </body>
 </html>

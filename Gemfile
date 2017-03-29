@@ -19,7 +19,7 @@ gem 'redcarpet', '~> 3.2.2'
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.1.0'
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
-
+gem 'devise', '~> 4.2'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
