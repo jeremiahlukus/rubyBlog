@@ -4,25 +4,6 @@ $highlight: #8bc6db;
 $border: #E9E9E9;
 $white: #FFFFFF;
 
-@media (min-width: 768px) {
-        width: 750px;
-    .col-1, .col-2, .col-3 {
-        width: 25%;
-    }
-}
-@media (min-width: 992px) {
-        width: 970px;
-        .col-1, .col-2, .col-3{
-            width: 25%;
-   }
-}
-@media (min-width: 1200px) {
-    width: 1170px;
-    .col-1, .col-2, .col-3 {
-        width: 25%;
-    }
-}
-
 
 .col-1, .col-2, .col-3 {
     float: left;
