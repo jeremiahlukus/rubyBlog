@@ -4,6 +4,14 @@ $highlight: #8bc6db;
 $border: #E9E9E9;
 $white: #FFFFFF;
 
+@media screen and (width:360px){
+    .hompage_content {
+        width: 750px;
+        .col-1, .col-2, .col-3{
+            width: 100%;
+        }
+    }
+}
 
 .col-1, .col-2, .col-3 {
     float: left;
@@ -24,7 +32,7 @@ $white: #FFFFFF;
         font-size: 1.1rem;
         text-transform: uppercase;
     }
-   h3{
+    h3{
         font-size: 1.35em;
         font-weight: 400;
         margin-bottom: .5em;
