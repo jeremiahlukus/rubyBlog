@@ -3,6 +3,22 @@ $light: #9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
 $white: #FFFFFF;
+@media (min-width: 768px) {
+    .col-1, .col-2, .col-3 {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .col-1, .col-2, .col-3 {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .col-1, .col-2, .col-3 {
+        width: 1170px;
+    }
+}
+
 
 .col-1, .col-2, .col-3 {
     float: left;
