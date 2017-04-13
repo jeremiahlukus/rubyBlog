@@ -9,14 +9,15 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
- 
-          <br> <pre style="text-align: left; width: 250px; padding: 0 1em; background: #ffffff; font-size: 12px;"><br>
+    <div class="container">
+      <div class="logo">
+          <br> <pre style="background-color: #ffffff"><br>
       if(espresso){
          return code;
-      }</pre>
+      }</pre> </div>
 
     <header id="main_navigation" class="clearfix">
-      <%= link_to "Jeremiah Parrack", root_path, class: "name" %><br>
+   <div id="main_name">  <%= link_to "Jeremiah Parrack", root_path, class: "name" %></div><br>
       <nav>
         <a href="https://drive.google.com/file/d/0BwTtH-r3NgrdMjdaeGlMcHFOT3c/view?usp=sharing" target="_blank">Resume</a>
         <%= link_to "Articles", posts_path %>
@@ -41,6 +42,7 @@
         <a href="https://github.com/jeremiahlukus/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/jeremiahlukus" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </nav>
-    </footer> 
+    </footer>
+</div>
   </body>
 </html>

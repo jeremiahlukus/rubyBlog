@@ -14,9 +14,15 @@ $white: #FFFFFF;
 }
 
 .col-2, .col-3 {
+    @media (min-width: 768px) {
+            width: 100%;
+    }
+    @media (min-width: 992px){
     width: 27.5%;
     padding: 0 2.5%;
-}
+    }
+
+  }
 .homepage_content {
     h2{
         font-size: 1.1rem;
@@ -47,6 +53,12 @@ $white: #FFFFFF;
 
 .about {
     padding: 0 7.5% 0 0;
+    @media (min-width: 768px) {
+            width: 100%;
+    }
+    @media (min-width: 992px){
+        width: 45%;
+    }
     a{
         color: $highlight;
         font-weight: bold;
