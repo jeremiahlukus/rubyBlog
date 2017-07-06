@@ -2,9 +2,9 @@ Chaeck it out here : https://jeremiahparrack.herokuapp.com/
 
 
 A)
- 1) what are I building? - personal site a place to blog, share my work and have people contact me
-	2) Who am I  building it for?  I am  building it for myself but also for the community as a whole. Sharing what I am learning by blogging.
-	3) What features do we want to have- 
+ 1)personal site a place to blog, share my work and have people contact me
+	
+	3) Features 
            a) create / edit / destroy 
            b) markdown 
            c) syntax highlighting
@@ -28,26 +28,4 @@ A)
 	8) As a sure I want visitors to be able to leave comments on my posts
 
 
-
-Model our data
-  Posts
-	Title: string
-	Content:text
-	
-Project
-	Title:string
-	Description:text
-	Link:string
-	
-User
-	Devise
-	
-	
-Thinking through the pages of app
-
-	1) Home
-	2) Posts#index
-	3) Posts#shoe
-	4) Projects#show
-	5) Contact
 
