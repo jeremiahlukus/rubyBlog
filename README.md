@@ -18,7 +18,6 @@ A)
 
 
 	B) User stories- 
-	1) "As a black I want to be able to blank so that blank"
 	2) As a user I want to be able to create posts so that I can share what I am learning on my blog
 	3) As a user I want to be able to edit and destroy posts so that I can manage my blog
 	4) As a user I want to be able to write posts in markdown so that it is eaiser for me to write posts
